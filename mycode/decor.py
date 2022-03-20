@@ -20,6 +20,10 @@ def Prefix_function(prefix):
                     pass
                 except requests.exceptions.ConnectionError:
                     pass
+                except requests.exceptions.HTTPError:
+                    pass
+                except requests.exceptions.RequestException:
+                    pass
                 else:
                     if get_request.ok is True:
                         print(True)
