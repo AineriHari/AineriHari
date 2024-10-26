@@ -1,0 +1,23 @@
+re:
+1. . -> any character expect new line
+2. \d -> digit [0-9]
+3. \D -> not a digit [0-9]
+4. \w -> word character [a-z, A-Z, 0-9, _]
+5. \W -> Not a word character
+6. \s -> whitespace spaces, tabs, newlines
+7. \S -> not whitespace spaces, tabs, newlines
+8. \b -> word boundary (Ha HaHa) --> output 2 match objects Ha Ha
+9. \B -> Not a word boundary
+10. ^ -> beginning of a string
+11. $ -> end of a string
+12. [] -> match characters in brackets
+13. [^] -> match characters not in brackets
+14. | -> either or
+15. () -> group
+
+quantifiers:
+1. * -> 0 or more
+2. + -> 1 or more
+3. ? -> 0 or one
+4. {3} -> exact number
+5. {3, 4} -> range of numbers (minimum, maximum)

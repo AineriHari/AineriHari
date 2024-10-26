@@ -1,0 +1,14 @@
+# Employee Details
+- Employee_Details:
+      Employee:
+        Name: "Hari"
+        Age: 34
+        Salary: $100
+        Mobile:
+          - 9010454646
+          - 9121903250
+        Hobbies:
+          - Game: chess
+            level: medium
+          - Game: Cricket
+            level: begginer
